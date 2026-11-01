@@ -1,0 +1,31 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local settings, machine traces, generated files and test artifacts
+/user-data/
+/output/
+/test-temp/
+*.log
+.coverage
+htmlcov/
+
+# Credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store

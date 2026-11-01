@@ -1,0 +1,83 @@
+{
+  "title": "Geschenkbrett – Danke Manfred",
+  "width": 400,
+  "height": 400,
+  "layers": [
+    {
+      "name": "Gravur",
+      "color": "#279b85",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 20,
+      "passes": 1,
+      "visible": true,
+      "id": "d714d579ea8b4dd3b06e3a6e30ffdafe"
+    },
+    {
+      "name": "Schnitt",
+      "color": "#d56756",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 60,
+      "passes": 1,
+      "visible": true,
+      "id": "119c352d2d534f8d93e9024f39d04305"
+    }
+  ],
+  "shapes": [
+    {
+      "kind": "rect",
+      "x": 70,
+      "y": 100,
+      "w": 260,
+      "h": 150,
+      "layer": "d714d579ea8b4dd3b06e3a6e30ffdafe",
+      "name": "Brettrahmen",
+      "text": "",
+      "points": [],
+      "id": "c818a81f34af4a9fa0f10e304aeaa29d",
+      "extra": {}
+    },
+    {
+      "kind": "ellipse",
+      "x": 100,
+      "y": 170,
+      "w": 45,
+      "h": 45,
+      "layer": "d714d579ea8b4dd3b06e3a6e30ffdafe",
+      "name": "Dekoration",
+      "text": "",
+      "points": [],
+      "id": "f1f8e24470f04fa5a87c292944c7255e",
+      "extra": {}
+    },
+    {
+      "kind": "text",
+      "x": 155,
+      "y": 130,
+      "w": 130,
+      "h": 15,
+      "layer": "d714d579ea8b4dd3b06e3a6e30ffdafe",
+      "name": "Beschriftung",
+      "text": "Danke, Manfred!",
+      "points": [],
+      "id": "8574169a525d4bff991a35986a0ec47e",
+      "extra": {}
+    },
+    {
+      "kind": "line",
+      "x": 155,
+      "y": 160,
+      "w": 120,
+      "h": 0,
+      "layer": "d714d579ea8b4dd3b06e3a6e30ffdafe",
+      "name": "Unterstreichung",
+      "text": "",
+      "points": [],
+      "id": "8baa925db22d48a6ae11300e700c8603",
+      "extra": {}
+    }
+  ],
+  "extensions": {},
+  "schema": 1
+}

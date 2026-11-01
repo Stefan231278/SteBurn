@@ -1,0 +1,104 @@
+{
+  "title": "Steburn 0.3 · Werkstatt",
+  "width": 400,
+  "height": 400,
+  "layers": [
+    {
+      "name": "Gravur",
+      "color": "#1878d1",
+      "mode": "Fläche",
+      "speed": 1200,
+      "power": 20,
+      "passes": 1,
+      "visible": true,
+      "output": true,
+      "air": false,
+      "interval": 0.2,
+      "id": "813edf3c23bb46b39afca13782c86038"
+    },
+    {
+      "name": "Schnitt",
+      "color": "#df493b",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 60,
+      "passes": 1,
+      "visible": true,
+      "output": true,
+      "air": false,
+      "interval": 0.2,
+      "id": "55b30897667244aba64b48c650c13954"
+    },
+    {
+      "name": "Markierung",
+      "color": "#239461",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 10,
+      "passes": 1,
+      "visible": true,
+      "output": true,
+      "air": false,
+      "interval": 0.2,
+      "id": "de2b0e73dc2340318d725d1d5256bc6c"
+    }
+  ],
+  "shapes": [
+    {
+      "kind": "rect",
+      "x": 45,
+      "y": 50,
+      "w": 180,
+      "h": 110,
+      "layer": "813edf3c23bb46b39afca13782c86038",
+      "name": "Geschenkbrett",
+      "text": "",
+      "points": [],
+      "id": "8fcd78ea8afc408996e16116ccedfd15",
+      "extra": {
+        "processing": {
+          "operation": "engrave",
+          "fill": "cross",
+          "interval": 1,
+          "power": 25
+        }
+      }
+    },
+    {
+      "kind": "text",
+      "x": 65,
+      "y": 90,
+      "w": 100,
+      "h": 20,
+      "layer": "55b30897667244aba64b48c650c13954",
+      "name": "Beschriftung",
+      "text": "Steburn",
+      "points": [],
+      "id": "7d92e85475ac4cd4bb0a5467ebb016c9",
+      "extra": {
+        "processing": {
+          "operation": "mark"
+        }
+      }
+    },
+    {
+      "kind": "ellipse",
+      "x": 250,
+      "y": 200,
+      "w": 70,
+      "h": 70,
+      "layer": "de2b0e73dc2340318d725d1d5256bc6c",
+      "name": "Konturschnitt",
+      "text": "",
+      "points": [],
+      "id": "b3e4b4e3cc8748fdae618ebb84a2fb08",
+      "extra": {
+        "processing": {
+          "operation": "cut"
+        }
+      }
+    }
+  ],
+  "extensions": {},
+  "schema": 3
+}

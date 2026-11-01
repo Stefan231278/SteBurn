@@ -1,0 +1,9 @@
+3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]
+Pillow==12.3.0
+fonttools==4.61.1
+svgpathtools==1.8.0
+shapely==2.2.0
+ezdxf==1.4.4
+PyMuPDF==1.26.6
+qrcode==8.2
+pyserial==3.5

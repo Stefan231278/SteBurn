@@ -1,0 +1,89 @@
+{
+  "title": "Steburn – Beispielprojekt",
+  "width": 400,
+  "height": 400,
+  "layers": [
+    {
+      "name": "Gravur",
+      "color": "#1878d1",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 20,
+      "passes": 1,
+      "visible": true,
+      "output": true,
+      "air": false,
+      "interval": 0.2,
+      "id": "5ec142f203af4a5ca7a91a7b84ce5d1e"
+    },
+    {
+      "name": "Schnitt",
+      "color": "#df493b",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 60,
+      "passes": 1,
+      "visible": true,
+      "output": true,
+      "air": false,
+      "interval": 0.2,
+      "id": "36570cd43edb4ee8923a4d507a13b876"
+    },
+    {
+      "name": "Markierung",
+      "color": "#239461",
+      "mode": "Kontur",
+      "speed": 1200,
+      "power": 10,
+      "passes": 1,
+      "visible": true,
+      "output": true,
+      "air": false,
+      "interval": 0.2,
+      "id": "d29198ab693342608cda4ea7dfd3b450"
+    }
+  ],
+  "shapes": [
+    {
+      "kind": "rect",
+      "x": 70,
+      "y": 100,
+      "w": 240,
+      "h": 140,
+      "layer": "5ec142f203af4a5ca7a91a7b84ce5d1e",
+      "name": "Brettrahmen",
+      "text": "",
+      "points": [],
+      "id": "51ae7656a1fe43f384dec86094fe5d39",
+      "extra": {}
+    },
+    {
+      "kind": "text",
+      "x": 110,
+      "y": 155,
+      "w": 140,
+      "h": 20,
+      "layer": "5ec142f203af4a5ca7a91a7b84ce5d1e",
+      "name": "Beschriftung",
+      "text": "Steburn",
+      "points": [],
+      "id": "4b47caa809864229abfa76a21cb4d3c1",
+      "extra": {}
+    },
+    {
+      "kind": "ellipse",
+      "x": 240,
+      "y": 130,
+      "w": 40,
+      "h": 40,
+      "layer": "d29198ab693342608cda4ea7dfd3b450",
+      "name": "Markierung",
+      "text": "",
+      "points": [],
+      "id": "a4ddbbd0cb11470ebd058759fe6750c5",
+      "extra": {}
+    }
+  ],
+  "extensions": {},
+  "schema": 2
+}
